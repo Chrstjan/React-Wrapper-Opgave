@@ -1,8 +1,8 @@
-export const CardHeader = (props) => {
+export const CardHeader = ({title = "Ingen Header"}) => {
     return (
         <>
             <header>
-                <h1>{props.title}</h1>
+                <h1>{title}</h1>
             </header>
         </>
     )

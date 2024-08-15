@@ -1,8 +1,8 @@
-export const CardBody = (props) => {
+export const CardBody = ({content = "Ingen Content"}) => {
     return (
         <>
             <div>
-                <p>{props.content}</p>
+                <p>{content}</p>
             </div>
         </>
     )

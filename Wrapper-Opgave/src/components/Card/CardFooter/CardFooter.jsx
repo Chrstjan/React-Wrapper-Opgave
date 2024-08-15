@@ -1,8 +1,8 @@
-export const CardFooter = (props) => {
+export const CardFooter = ({footerContent = "Ingen Footer Content"}) => {
     return (
         <>
             <footer>
-                {props.footerContent}
+                {footerContent}
             </footer>
         </>
     )
